@@ -47,7 +47,7 @@ export const NavBar = () => {
         <span className='navbar-text'>
             <div className='social-icon'>
                 <a href='https://www.linkedin.com/in/vaishnavi-mankala-33a256252/'><img src={navIcon1} alt=''/></a>
-                <a href='#'><img src={navIcon2} alt=''/></a>
+                // <a href='#'><img src={navIcon2} alt=''/></a>
                 <a href='https://github.com/VaishnaviMankala19'><img src={navIcon3} alt=''/></a>
             </div>
             <Nav.Link href="#connect"  onClick={()=>onUpdateActiveLink('connect')}>
